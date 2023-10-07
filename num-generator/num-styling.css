@@ -1,0 +1,27 @@
+.div-styles {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+button {
+  border-radius: 50px;
+  font-size: 60px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #292929;
+  color: #0021b5;
+}
+
+.align-center {
+  text-align: center;
+  margin-top: 500px;
+}
+
+* {
+  background: black;
+  color: white;
+}
