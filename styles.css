@@ -11,7 +11,7 @@ section {
   margin-top: 800px;
 }
 
-a {
+section a {
   font-size: 60px;
   font-family: 'Shadows Into Light';
   color: blue;
@@ -25,4 +25,24 @@ a:hover {
 .about {
   font-size: 70px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.b {
+  font-weight: bolder;
+}
+
+.span-font-styles {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+section a {
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
