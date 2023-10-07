@@ -10,3 +10,19 @@
 section {
   margin-top: 800px;
 }
+
+a {
+  font-size: 60px;
+  font-family: 'Shadows Into Light';
+  color: blue;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #00a6b0;
+}
+
+.about {
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
