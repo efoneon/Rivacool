@@ -8,12 +8,12 @@ button {
   border-radius: 50px;
   font-size: 60px;
   text-align: center;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 
 button:hover {
   background-color: #292929;
-  color: #0021b5;
+  color: #b4b4b4;
 }
 
 .align-center {
