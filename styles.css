@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #292929;
   color: whitesmoke;
+  margin: 0;
 }
 
 .align-center {
@@ -13,13 +18,21 @@ body {
 }
 
 section {
-  margin-top: 200px;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+}
+
+nav a {
+  font-size: 60px;
+  font-family: 'Shadows Into Light';
 }
 
 a {
-  margin-left: 30px;
-  font-size: 60px;
-  font-family: 'Shadows Into Light';
   color: cornflowerblue;
   transition: all 0.3s;
 }
@@ -42,16 +55,9 @@ a:hover {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-section p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-}
-
-section a {
-  font-size: 15px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  margin: 0px;
+#fav-websites a {
+  font-size: 60px;
+  font-family: 'Shadows Into Light';
 }
 
 .news-sctn-title {
@@ -62,7 +68,7 @@ section a {
 fieldset {
   background: black;
   border-radius: 10px;
-  margin-top: 800px;
+  /* margin-top: 500px; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -78,4 +84,16 @@ fieldset {
 .border {
   border: 1px solid gray;
   margin-top: 500px;
+}
+
+#ad-title {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-family: 'Quicksand';
+}
+
+#unsplash-ad-styles {
+  border-radius: 20px;
+  border: 5px solid black;
 }
